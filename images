@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>VoiceOver Practice: Images</title>
+<link href="/styles/examplestyles.css" rel="stylesheet">
+</head>
+<body>
+<h1>VoiceOver Practice: Images</h1>
+The following image has an alt attribute &quot;WebAIM - Web Accessibility in Mind&quot;.
+<img src="/media/logo.png" width="302" height="80" alt="WebAIM - Web Accessibility in Mind">
+The following is the same image as above, but this time without an alt attribute.
+<img src="/media/logo.png" width="302" height="80">
+The following image has an <em>inappropriate</em> null, or empty alt attribute (alt=&quot;&quot;).
+<img src="/media/logo.png" width="302" height="80" alt="">
+<h2>Images as links </h2>
+The following image is a link. It has the alt attribute &quot;WebAIM - Web Accessibility in Mind&quot; and links to the WebAIM homepage.
+<a href="/"><img src="/media/logo.png" width="302" height="80" alt="WebAIM - Web Accessibility in Mind"></a>
+The following image is a link with a missing alt attribute.
+<a href="/"><img src="/media/logo.png" width="302" height="80"></a>
+The following image is a link with an <em>inappropriate</em> null, or empty alt attribute (alt=&quot;&quot;).
+<a href="/"><img src="/media/logo.png" width="302" height="80" alt=""></a>
+<a href="/articles/voiceover/#tables">Return to the main article </a>
+</body>
+</html>
